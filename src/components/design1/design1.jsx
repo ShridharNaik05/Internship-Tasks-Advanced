@@ -5,21 +5,24 @@ function Design1() {
   return (
     <>
     <div className="container">
-      <div className="navbar"></div>
+      <div className="navbar">
+        <div className="nav-left">LOGO</div>
+        <div className="nav-right">HOME PAGE</div>
+      </div>
       <div className="first-box">
-        <div className="first-left">Ad Space</div>
-        <div className="first-right">Rotator</div>
+        <div className="first-left"><h3>Ad Space</h3></div>
+        <div className="first-right"><h3>Rotator</h3></div>
       </div>
       <div className="second-box">
         <div className="second-left">
           <div className="small"></div>
-            Featured Child
+            <h3>Featured Child</h3>
         </div>
-        <div className="second-right">Simple Give Area</div>
+        <div className="second-right"><h3>Simple Give Area</h3></div>
       </div>
       <div className="third-box">
-        <div className="third-left">Sponsor</div>
-        <div className="third-right">Create Ways to Give</div>
+        <div className="third-left"><h3>Sponsor</h3></div>
+        <div className="third-right"><h3>Create Ways to Give</h3></div>
       </div>
       <div className="fourth-box">
         <div className="boxs">
@@ -29,7 +32,7 @@ function Design1() {
         <div className="box4"></div>
         <div className="box5"></div>
         </div>
-        Pics + Mini Bios of Children
+        <h3>Pics + Mini Bios of Children</h3>
       </div>
     </div>
     </>
