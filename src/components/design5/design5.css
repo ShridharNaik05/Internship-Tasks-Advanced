@@ -10,11 +10,12 @@
     flex-direction: column;
     background-color: white;
     height: 700px;
-    max-width: 700px;
+    max-width: 600px;
     border:3px solid black;
     margin: 10px;
     padding: 15px;
     gap: 10px;
+    
 }
 
 .navbar{
@@ -71,12 +72,13 @@
 }
 
 .second-right{
-    flex: auto;
+    flex:auto;
     border: 2px solid black;
     box-shadow: 0 0  5px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    gap: 20%;
     flex: 1;
     padding: 20px;
 
@@ -85,6 +87,7 @@
 .calendar{
     flex: 3;
     border-collapse: collapse;
+    margin-bottom: 50%;
 }
 
 .calendar td{
