@@ -10,7 +10,7 @@
     flex-direction: column;
     background-color: white;
     height: 700px;
-    width: 50%;
+    max-width: 700px;
     border:3px solid black;
     margin: 10px;
     padding: 15px;
@@ -36,11 +36,35 @@
 }
 
 .second-box{
-    flex: 0.5;
-    padding: 5px;
+    flex: 0.6;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px;
+}
+
+.second-left{
+    background-color: cadetblue;
+    flex:0.7 ;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-left img{
+    width: 70px;
+    height: 70px;
+}
+
+.second-right{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .third-box{
@@ -81,63 +105,13 @@
     box-shadow: 0 0 5px;
 }
 
-.second-left{
-    flex: 0.5;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    box-shadow: 0 0 5px;
 
-}
-
-.second-right{
-    flex: 0.6;
-    border: 2px solid black;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 5px;
-
-}
-
-.small{
-    border: 2px solid black;
-    flex:0.5;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.third-left{
-    flex: 0.5;
-    border: 2px solid black;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 5px;
-
-}
-
-.third-right{
-    flex: 0.6;
-    border: 2px solid black;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 5px;
-
-}
 
 .boxs{
     flex: 0.8;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 10%;
     padding: 5px;
 }
 
