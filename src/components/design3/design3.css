@@ -39,10 +39,26 @@
     flex: 0.6;
     padding: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
     border: 2px solid black;
     box-shadow: 0 0 5px;
+}
+
+.second-top{
+    flex: 0.8;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.second-end{
+    background-color: cadetblue;
+    flex: 0.2;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .second-left{
@@ -62,9 +78,7 @@
 
 .second-right{
     flex: 0.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 10px;
 }
 
 .third-box{

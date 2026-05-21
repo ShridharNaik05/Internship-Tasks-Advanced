@@ -15,10 +15,14 @@ function Design3() {
         <div className="first-right"><h3>Rotator</h3></div>
       </div>
       <div className="second-box">
-        <div className="second-left">
+        <div className="second-top">
+          <div className="second-left">
           <img src={playButton} alt="Play Button"/>
         </div>
         <div className="second-right"><h3>Video + Text</h3></div>
+        </div>
+
+        <div className="second-end">Link to Support/Donation Page</div>
       </div>
       <div className="fourth-box">
         <div className="boxs">
