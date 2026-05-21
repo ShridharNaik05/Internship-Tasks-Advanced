@@ -75,11 +75,23 @@
     border: 2px solid black;
     box-shadow: 0 0  5px;
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+
 }
 
+.calendar{
+    flex: 3;
+    border-collapse: collapse;
+}
 
+.calendar td{
+    width:10px;
+    height:10px;
+    border:1px solid black;
+}
 
 
 .fourth-box{
