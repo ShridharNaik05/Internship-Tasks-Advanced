@@ -48,27 +48,36 @@
     display: flex;
     flex-direction: column;
     flex: 2;
-    gap: 10px;
+    gap: 30%;
     border: 2px solid black;
     box-shadow: 0 0 5px;
 }
 
-.second-left1{
-    background-color: cadetblue;
-    flex: 1;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.second-left1,
+.second-left2{
+    display:flex;
+    align-items:center;
+    gap:30px;
 }
 
-.second-left2{
+.trip-content{
+    display:flex;
+    flex-direction:column;
+}
+
+.second-left1 h3,
+.second-left2 h3{
+    margin:0;
+    white-space:nowrap;
+    font-size:28px;
+}
+
+.secondbox1,
+.secondbox2{
+    width:120px;
+    height:90px;
+    border:2px solid black;
     background-color:cadetblue;
-    flex: 1;
-    border: 2px solid black;
-     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .second-right{

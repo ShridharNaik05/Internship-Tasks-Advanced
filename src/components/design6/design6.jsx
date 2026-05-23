@@ -15,8 +15,22 @@ function Design6() {
       </div>
       <div className="second-box">
         <div className="second-left">
-            <div className="second-left1"><h3>Graphic ad for Event</h3></div>Text for Event
-            <div className="second-left2"><h3>Graphic ad for Event</h3></div>Text for Event
+            <div className="second-left1">
+                <div className="trip-content">
+                    <div className="secondbox1"></div>
+                    <p>Text for Trip</p>
+                </div>
+                <h3>Graphic for Trip</h3>
+            </div>
+
+            <div className="second-left2">
+                <div className="trip-content">
+                    <div className="secondbox2"></div>
+                    <p>Text for Trip</p>
+                </div>
+
+                <h3>Graphic for Trip</h3>
+            </div>
         </div>
         <div className="second-right"><h3>Calender</h3>
             <table className="calendar">
