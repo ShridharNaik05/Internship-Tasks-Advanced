@@ -1,6 +1,6 @@
-import './design5.css'
+import './design6.css'
 
-function Design5() {
+function Design6() {
 
   return (
     <>
@@ -83,4 +83,4 @@ function Design5() {
   )
 }
 
-export default Design5
+export default Design6
