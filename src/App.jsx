@@ -5,7 +5,8 @@ import './App.css'
 // import Design4 from './components/design4/design4'
 // import Design5 from './components/design5/design5'
 // import Design6 from './components/design6/design6'
-import Design7 from './components/design7/design7'
+// import Design7 from './components/design7/design7'
+import Design8 from './components/design8/design8'
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
 
     {/* <Design6 /> */}
 
-    <Design7 />
+    {/* <Design7 /> */}
+
+    <Design8 />
 
     </>
   )
