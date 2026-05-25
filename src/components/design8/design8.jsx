@@ -1,4 +1,7 @@
 import './design8.css'
+import bulbButton from '../../assets/bulb.png';
+import handshakeButton from '../../assets/handshake.png';
+import microphoneButton from '../../assets/microphone.png';
 
 function Design8() {
 
@@ -14,22 +17,23 @@ function Design8() {
         <div className="first-right"><h3>Rotator</h3></div>
       </div>
             <div className="second-box">
+
                 <div className="middle-item">
-                    <div className="icon"></div>
+                    <img src={bulbButton} className="icon" />
                     <div className="text">Fundraiser Idea + Text</div>
                 </div>
 
                 <div className="middle-item">
-                    <div className="icon"></div>
+                    <img src={handshakeButton} className="icon" />
                     <div className="text">Fundraiser Idea + Text</div>
                 </div>
 
                 <div className="middle-item">
-                    <div className="icon"></div>
+                    <img src={microphoneButton} className="icon" />
                     <div className="text">Fundraiser Idea + Text</div>
                 </div>
-                
-            </div>   
+
+            </div>
       <div className="fourth-box">
         <div className="boxs">
           <div className="box1"></div>
